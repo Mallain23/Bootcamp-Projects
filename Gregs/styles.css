@@ -1,5 +1,5 @@
 nav {
-  background-color: grey;
+  background-color: #D3D3D3;
   position: fixed;
   width: 100%;
   height: 40px;
@@ -9,7 +9,7 @@ nav {
   position: absolute;
   left: 20px;
   font-size: 20px;
-  font: arial;
+  font-family: arial;
   top: 5px;
 }
 .nav-links {
@@ -17,13 +17,86 @@ nav {
   position: absolute;
   right: 20px;
   margin-top: 5px;
+  font-family: arial;
 }
 .post-link {
   padding-right: 5px;
   font-size: 20px;
   font: arial;
   text-decoration: none;
+  color: purple;
+
+}
+.search-bar {
+  display: inline-block;
+  width: 500px;
+  height: 25px;
+  position: absolute;
+  left: 40px;
+  top: 90px;
+  border-radius: 5%;
+}
+.glass-icon {
+  display: inline-block;
+  position: absolute;
+  left: 550px;
+  top: 90px;
+  width: 30px;
+  height: 25px;
+}
+.nav-group {
+  position: relative;
+  top: 120px;
+  left: 30px;
+  font-size: 0px;
+
+}
+.lower-nav {
+  display: inline-block;
+  height: 20px;
+  width: 60px;
+  border: solid 1px grey;
+  font-size: 16px;
+  padding: 2px;
+}
+.right {
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+.left {
+  border-bottom-left-radius: 10%;
+  border-top-left-radius: 10%;
+}
+
+.middle {
+  width: 150px;
+  text-align: center;
+  padding: 2px;
+  border: 1px solid grey;
+  font-size: 16px;
+}
+.grey {
+  color: grey;
+  font-weight: bold;
+  font-size: 15px;
+}
+.results {
+  color: blue;
+  font-weight: bold;
+  font-size: 17px;
 
 }
 
-.
+
+.search-results {
+  position: relative;
+  top: 150px;
+  left: 30px;
+
+}
+label {
+  display: inline-block;
+  position: relative;
+  top: 55px;
+  left: 30px;
+}
